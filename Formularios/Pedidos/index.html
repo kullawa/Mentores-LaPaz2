@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Pedido Pollos Chicken</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+
+
+    <div class="color-fondo contenedor todo">
+        <h1>¡Pedido Delivery!</h1>
+
+        <form action="">
+            <h2>Datos Personales</h2>
+            <div class="bajo grupo-campo ">
+
+                <div class="campo">
+                    <label class="tamano" for="">Nombre</label>
+                    <input class="derecha-espacio bajo" type="text" name="Nombre" placeholder="Nombre Completo">
+                </div>
+
+                <div class="campo">
+                    <label class="tamano" for="">Apellido</label>
+                    <input class="derecha-espacio bajo" type="text" name="Apellido" placeholder="Apellido">
+                </div>
+
+                <div class="campo">
+                    <label class="tamano" for="">Cumpleaños</label>
+                    <input class="derecha-espacio bajo" type="date" name="date" placeholder="Cumpleaño-del-cliente">
+                </div>
+
+            </div>
+
+            <div class="bajo grupo-campo ">
+
+                <div class="campo mover-dni listo">
+                    <label class="tamano" for="">DNI:</label>
+                    <input class="derecha-espacio bajo width dni" type="number" name="DNI" placeholder="DNI">
+                </div>
+
+                <div class="campo">
+                    <label class="tamano" for="">Telefono:</label>
+                    <input class="derecha-espacio bajo" type="number" name="telefono" placeholder="Telefono">
+                </div>
+
+                <div class="campo">
+                    <label class="tamano" for="">Fijo</label>
+                    <input class="derecha-espacio bajo width" type="number" name="telefono" placeholder="Fijo">
+                </div>
+
+            </div>
+
+
+
+
+
+            <div class="grupo-campo">
+                <div class="campo">
+                    <label class="tamano" for="">Correo-electronico</label>
+
+                    <input class="derecha-espacio" type="text" name="Correo-electronico" placeholder="Correo">
+                </div>
+                <div class="">
+                    <p>Se le enviara publicidad y promociones del Dia</p>
+                </div>
+
+            </div>
+
+
+
+
+
+
+            <h2>Datos de Ubicacion del cliente</h2>
+            <div>
+                <label class="tamano" for="">Distrito</label>
+
+                <select class="derecha-espacio" name="" id="">
+                    <option value="">Jesus Maria</option>
+                    <option value="">Breña</option>
+                    <option value="">San Miguel</option>
+                    <option value="">San Borja</option>
+                    <option value="">Pueblo Libre</option>
+
+                </select>
+
+                <label class="tamano" for="">Direecion</label>
+                <input type="text" name="direccion" placeholder="Calle.av.1234°">
+
+            </div>
+
+
+
+            <div class="arriba-espacio">
+                <label class="tamano" for="">Referencia:</label>
+                <textarea name="" id="" cols="44" rows="2"></textarea>
+            </div>
+
+            <h2>Datos del Pedido</h2>
+
+            <h3>Especialidad</h3>
+            <input id="especialidad1" type="radio" name="especialidadad">
+            <label class="derecha-espacio-mas" for="especialidad1">Pollos</label>
+
+
+            <input id="especialidad2" type="radio" name="especialidadad">
+            <label class="derecha-espacio-mas" for="especialidad2">Parrilla</label>
+
+
+            <input id="especialidad3" type="radio" name="especialidad">
+            <label class="derecha-espacio-mas" for="especialidad3">Pizzas</label>
+
+            <label for="">Cantidad:</label>
+            <select name="cantidad-especialidad" id="">
+
+                <option value="1">1</option>
+                <option value="1">2</option>
+                <option value="1">3</option>
+                <option value="1">4</option>
+                <option value="1">5</option>
+                <option value="1">6</option>
+                <option value="1">7</option>
+                <option value="1">8</option>
+                <option value="1">9</option>
+                <option value="1">10</option>
+
+
+
+            </select>
+
+            <h3>Bebidas</h3>
+
+            <input id="bebidas1" type="radio" name="Coca-cola">
+            <label class="coca-cola" for="bebidas1">Coca-cola</label>
+
+
+            <input id="bebidas2" type="radio" name="Coca-cola">
+            <label class="chica-morada" for="bebidas2">Chicha morada</label>
+
+            <input id="bebidas3" type="radio" name="Coca-cola">
+            <label class="n-a" for="bebidas3">N/A</label>
+
+            <label for="">Cantidad:</label>
+            <select name="cantidad-bebida" id="">
+
+                <option value="1">1</option>
+                <option value="1">2</option>
+                <option value="1">3</option>
+                <option value="1">4</option>
+                <option value="1">5</option>
+                <option value="1">6</option>
+                <option value="1">7</option>
+                <option value="1">8</option>
+                <option value="1">9</option>
+                <option value="1">10</option>
+
+
+
+            </select>
+            <h3>Postre</h3>
+            <input id="postre1" type="radio" name="postre">
+            <label class="tres-leche" for="postre1">Milhojas</label>
+
+            <input id="postre2" type="radio" name="postre">
+            <label class="helados" for="postre2">Helados</label>
+
+            <input id="postre3" type="radio" name="postre">
+            <label class="N-A" for="postre3">N/A</label>
+
+
+            <label for="">Cantidad:</label>
+            <select name="cantidad-bebida" id="">
+
+                <option value="1">1</option>
+                <option value="1">2</option>
+                <option value="1">3</option>
+                <option value="1">4</option>
+                <option value="1">5</option>
+                <option value="1">6</option>
+                <option value="1">7</option>
+                <option value="1">8</option>
+                <option value="1">9</option>
+                <option value="1">10</option>
+
+            </select>
+
+            <div>
+                <button class="boton">Enviar</button>
+
+                <p class="final">!Gracias por tu preferencia!</p>
+            </div>
+
+
+
+        </form>
+    </div>
+
+    </div>
+    </div>
+
+
+
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,145 @@
+body,header,footer,h1,h2,h3,h4,h5,h6 ,section,div,article,nav,a,img,ul,ol,li,main,aside,p,input,label,option,form,select{
+    margin:0;
+    padding: 0%;
+    box-sizing: border-box;
+    }
+
+    
+    
+
+    
+
+
+
+ul, ol{
+    list-style: none;
+}
+.color-fondo{
+    background-color: antiquewhite;
+}
+.contenedor{
+    max-width: 900px;
+    margin: auto;
+    width: 900px;
+}
+
+h1{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    font-size: 61px;
+}
+.bajo{
+    margin-bottom:15px;
+}
+.derecha-espacio{
+    margin-right: 10px;
+    
+}
+.mover-derecha{
+    display: flex;
+    justify-content: center;
+    justify-content: s
+
+}
+.derecha-espacio-mas{
+    margin-right: 80px;
+}
+h2{
+    font-size: 25px;
+    font-family: fantasy;
+    margin-bottom: 15px;
+    margin-top: 35px;
+
+}
+.final{
+    font-size: 40px;
+
+}
+
+
+
+
+.tamano{
+    font-size: 22px;
+}
+
+.width{
+    width: 175px;
+}
+.arriba-espacio{
+    margin-top: 30px;
+}
+.coca-cola{
+    margin-right: 55px;
+}
+.chica-morada{
+    margin-right: 30px;
+}
+
+.n-a{
+    margin-right: 90px;
+}
+.tres-leche{
+    margin-right: 62px;
+}
+.helados{
+    margin-right: 76px;
+}
+.N-A{
+    margin-right: 90px;
+}
+.colum{
+    display: flex;
+}
+h3{
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+.boton{
+    margin-top: 40px;
+    font-size: 19px;
+    background-color: burlywood;
+    border-radius: 5px;
+    border: -1px;
+    color: beige;
+    width: 107px;
+    padding: 4px;
+    
+
+
+}
+
+input,textarea,select{
+    border-radius: 5px;
+    height: 29px;
+    margin-top: 5px;
+    padding-left: 5px;
+    border: 1px solid #e4cac1;
+    font-size: 17px;
+}
+ 
+
+
+.boton:hover{
+    background-color: aqua
+}
+.campo{
+    display: flex;
+    flex-direction: column;
+
+}
+.todo{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.grupo-campo{
+ 
+    display: flex;
+    align-items: flex-end;
+}
+
+
