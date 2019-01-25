@@ -1,0 +1,129 @@
+
+body,header,footer,h1,h2,h3,h4,h5,h6 ,section,div,article,nav,a,img,ul,ol,li,main,aside,p,input,option,select,form,textarea,label{
+    margin:0;
+    padding: 0%;
+    box-sizing: border-box;
+    }
+
+    
+    
+
+    
+
+
+
+ul, ol{
+    list-style: none;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.contenedor{
+max-width: 500px;
+margin: auto;
+
+}
+
+
+h1{
+    font-size: 45px;
+    margin-bottom: 5px;
+}
+.graniso{
+    background-color: #ecf0f5
+}
+
+.campo-contenedor{ 
+    margin-top: 10px;
+    margin-bottom: 9px;
+
+
+    
+
+}
+ .separacion{
+     margin-right:5px;
+ }
+.link{
+text-decoration: none;
+color: blue;
+
+}
+.ask{
+    margin-left: 10px;
+}
+.link:hover{
+    text-decoration: underline;
+}
+.Parrafo{
+    width: 412px;
+    font-size: 15px;
+}
+.color-plomo{
+    color: gray;
+}
+.campo{
+    border-radius: 5px;
+    height: 35px;
+    margin-top: 5px;
+    padding-left: 5px;
+    border: 1px solid  #c1c4e4;
+    font-size: 17px;
+    
+
+   
+
+
+}
+
+
+}
+.boton:hover{
+    background-color: blue;
+    color: black;
+}
+.campo-mitad{
+    width: 40%;
+    margin-right: 8px;
+}
+.campo-completo{
+    width: 100%;
+  
+}
+.campo-pequeno{
+    height: 32px;
+}
+
+.boton{
+    background-color: #5c9d58;
+    border-radius: 5px;
+    height: 40px;
+    width: 168px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 25px;
+    cursor: pointer;
+    border-color: #5c9d58;
+}
+ 
+ .label{
+    font-size: 24px;
+   
+    font-weight: bold;
+
+    margin-bottom: 12px;
+    
+ }
+ .separar{
+    margin-top: 14px;
+    margin-bottom: 16px;
+ }
+ .borde{
+
+ }
+ .campo-fecha{
+     display: flex;
+ }
