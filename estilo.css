@@ -1,0 +1,204 @@
+.menu-header{
+    background-color: skyblue;
+    border-bottom: 4px solid cadetblue;
+}
+
+.menu-header h1{
+    font-size: 50px;
+    text-transform: uppercase;
+    color: cadetblue;
+}
+
+.menu-header ul{
+display: flex;
+justify-content: space-evenly;
+text-transform: uppercase;
+color: cadetblue;
+}
+
+.inicio{ 
+    height: 107px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.img-proyecto{
+    width: 100%;
+}
+
+.caja-espacio{
+        height: 83px;
+        display: flex;
+        align-items: center;
+}
+
+
+.titulo{
+    width: 399px;
+    text-align: center;
+    font-size: 30px;
+    color: #5b7c7d;
+    text-transform: uppercase;
+
+}
+.boton{
+    width: 120px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #5b7c7d;
+    border: 2px solid cadetblue;
+    font-family: calibri;
+    font-size: 14px;
+    font-weight: bold;
+}
+.hamburguesa{
+    width: 51px;
+}
+.raya{
+    border: 2px solid black;
+    display: flex;
+    margin: 2px;
+
+}
+.flex{
+    display: flex;
+    flex-direction: column-reverse;
+}
+.text-menu{
+    font-weight: bold;
+    position: relative;
+    right: 50px;
+    top:20px;
+}
+
+.text-subtitulo{
+    font-size: 20px;
+    width: 90%;
+    color: #03a9f4b5;
+}
+
+.titulo-proyecto{
+    text-transform: uppercase;
+    color: cadetblue;
+    font-size: 20px;
+
+}
+
+.subtitulo{
+    font-weight: bold;
+    color: cadetblue;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.text-p{
+    font-size: 16px;
+    color: #03a9f4b5;
+}
+
+
+.testimonios{
+    color: cadetblue;
+    font-size: 16px;
+
+}
+
+.boton-mas{
+    background-color: #5b7c7d;
+    border: 2px solid cadetblue;
+    font-family: calibri;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.nombre-persona-text{
+    width: 80%;
+    color: #03a9f4b5;
+    font-size: 16px;
+}
+
+.alineacion-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 140px;
+}
+
+.footer{
+    text-align: center;
+    background-color: #5b7c7d;
+    height: 69px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tex-center{
+    flex-direction: column;
+    padding-left: 20px;
+}
+
+.nombre-persona{
+    color: #5b7c7d;
+    font-size: 25;
+
+}
+
+.img-logo{
+    width: 10rem;
+}
+
+
+
+
+@media (max-width: 767px) {
+    .boton{
+        width: 80px;
+    }
+    .alineacion-text{
+        flex-direction: column;
+        height: auto;
+    }
+
+    .img-caso-estudio{
+        width: 100%;
+    }
+
+    .nombre-persona-text{
+        width: 100%;
+    }
+
+    .titulo{
+        width: auto;
+    }
+
+    .text-subtitulo{
+        width: auto;
+    }
+
+    .titulo-proyecto{
+        width: auto;;
+    }
+}
+
+@media (min-width: 768px) and (max-width:1024px){
+    .logo{
+        position: relative;
+        top: 20px;
+
+    }
+  
+    .alineacion-text{
+        flex-direction: column;
+        height: auto;
+
+    }
+    .img-caso-estudio{
+        width: 100%;
+    }
+
+    .nombre-persona-text{
+        width: 100%;
+    }
+}
